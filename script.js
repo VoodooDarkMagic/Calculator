@@ -52,7 +52,7 @@ Btn.forEach((button) => {
                 console.log(num2)
                 displayNumber.textContent = '';
             }
-            operator = button.textContent;
+            
 
             if(operator === '+'){
                 result = addition(num1,num2)
@@ -74,6 +74,7 @@ Btn.forEach((button) => {
             
             displayHistory.textContent = result;
             displayNumber.textContent = ''
+            operator = button.textContent;
             console.log(operator)
         } 
         
